@@ -1,0 +1,160 @@
+
+
+
+
+
+/*
+export const useStyles = makeStyles((theme) => ({
+  homeRoot: {
+    display: "flex",
+    "& > *": {
+      // margin: theme.spacing(1),
+    },
+    containerDiv: {
+      flex: "auto",
+      position: "fixed",
+      top: "40%",
+      left: "42.5%",
+    },
+    extraBtnStyle: {
+      margin: "2%",
+    },
+    centerItem: {
+      flex: "auto",
+      top: "15%",
+      position: "relative",
+      left: "25%",
+      right: "25%",
+      width: "50%",
+      marginBottom: "50px",
+      marginTop: "60px",
+    },
+    fullWidth: {
+      width: "90%",
+      marginBottom: "25px",
+      marginTop: "20px",
+    },
+    linkContainer: {
+      marginBottom: "20px",
+    },
+    authResponse: {
+      fontWeight: "bolder",
+    },
+    title: {
+      flexGrow: 1,
+
+      color: "red",
+    },
+    fullWidthProfile: {
+      width: "70%",
+      marginRight: "15%",
+      marginLeft: "15%",
+      marginTop: "80px",
+    },
+    link: {
+      color: "white",
+      textDecoration: "none",
+    },
+  },
+})); */
+
+
+
+.homeroot {
+  display: flex;
+}
+.appbar {
+  background-image: linear-gradient( to right, #004d8b,#000000, #005888, #186088,#775764,#3B5B7A,#000000);
+}
+.containerdiv {
+  flex: auto;
+  position: fixed;
+  top: 20%;
+  left: 42.5%;
+}
+.containerdivSingle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extrabtnstyle {
+  margin: 2%;
+}
+
+.centeritem {
+  flex: auto;
+  top: 13%;
+  position: relative;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.fullwidth {
+  width: 90%;
+  margin-bottom: 25px !important;
+  margin-top: 20px !important;
+}
+.background {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  z-index: -10;
+  position: absolute;
+}
+.homepage_container {
+  margin-top: 5%;
+}
+
+.linkcontainer {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.authresponse {
+  font-weight: bolder;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.fullwidthprofile {
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 80px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #051c33;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+.button_success {
+  background-color:#004d8b
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
